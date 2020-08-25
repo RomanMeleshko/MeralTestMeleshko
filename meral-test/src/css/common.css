@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '~swiper/swiper-bundle.css';
+
+
+/* Styles of Login page */
+* {
+  font-family: NoirPro;
+
+}

@@ -1,0 +1,8 @@
+/* Style header-nav-bar */
+@import "header.css";
+
+/* Style common for all forders and files */
+@import "common.css";
+
+/* Add fonts to pages */
+@import "fonts.css";
