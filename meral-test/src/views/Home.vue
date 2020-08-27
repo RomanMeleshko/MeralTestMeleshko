@@ -74,11 +74,22 @@
                  {{ user.under_title }}
                </span>
              </div>
+
              <div class="button-slider pt-3">
                <button>Create</button>
              </div>
              <img class="user_img" :src="user.user_img" />
              <div class="gradient"></div>
+
+             <div class="hover-text pr-1">
+               <span>
+                 Get exclusive content.Interact with Dave.Get exclusive content.
+                 Interact with Bridget.Verified Nobody.My trible is tribeless.
+                 Captain of the Fence Riding Team.Fidding while Rome burns.
+                 Find another hero.
+
+               </span>
+             </div>
 
            </div>
 
@@ -206,6 +217,9 @@ export default {
   background: #FFF7F7;
   border-radius: 4px;
 }
+.search:focus {
+  outline: none;
+}
 .icon_search {
   background: #FFF7F7;
 }
@@ -272,6 +286,31 @@ export default {
   text-align: center;
   font-size: 18px;
 }
+.swiper-slide:hover > .hover-text {
+  display: block;
+  margin-top: 80px;
+}
+.swiper-slide:hover > .title {
+  display: none;
+}
+.swiper-slide:hover > .under-title {
+   display: none;
+   opacity: 0.5;
+}
+.swiper-slide:hover > .button-slider {
+  margin-top: 322px;
+}
+.hover-text {
+   top: 0px;
+   z-index: 300 !important;
+   position: absolute;
+   color: #FFFFFF;
+   text-align: left;
+   font-size: 18px;
+   word-wrap: break-word;
+   display: none;
+   transition: 1s;
+}
 .swiper-wrapper {
   border-radius: 4px;
 }
@@ -296,6 +335,7 @@ export default {
   background: #E73348;
   border-radius: 4px;
   border: none;
+
 }
 .user_img {
   top: 0px;
@@ -322,7 +362,7 @@ export default {
   background: none;
   border: 1px solid #E73348;
   color: #E73348;
-  z-index: 999 !important;
+  z-index: 99 !important;
 }
 
 .swiper-button-next:after,
