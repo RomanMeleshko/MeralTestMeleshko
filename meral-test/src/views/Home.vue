@@ -83,11 +83,7 @@
 
              <div class="hover-text pr-1">
                <span>
-                 Get exclusive content.Interact with Dave.Get exclusive content.
-                 Interact with Bridget.Verified Nobody.My trible is tribeless.
-                 Captain of the Fence Riding Team.Fidding while Rome burns.
-                 Find another hero.
-
+                  {{ user.hover_text }}
                </span>
              </div>
 

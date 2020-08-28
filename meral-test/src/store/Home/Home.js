@@ -27,30 +27,50 @@ export default {
          title: 'the rubin report',
          under_title: 'Get exclusive content.Interact with Dave',
          user_img: require("@/assets/Person1.png"),
+         hover_text: "Get exclusive content." +
+         "Interact with Dave.Get exclusive content." +
+         "Interact with Bridget.Verified Nobody.My trible is tribeless." +
+         "Captain of the Fence Riding Team.Fidding while Rome burns. Find another hero."
        },
        {
          id: 2,
          title: 'ngo - go zone',
          under_title: 'Get exclusive contentInteract with Andy',
          user_img: require("@/assets/Person2.png"),
+         hover_text: "Get exclusive content." +
+         "Interact with Dave.Get exclusive content." +
+         "Interact with Bridget.Verified Nobody.My trible is tribeless." +
+         "Captain of the Fence Riding Team.Fidding while Rome burns. Find another hero."
        },
        {
          id: 3,
          title: 'Bridget Phetasy',
          under_title: 'Get exclusive content Interact with Bridget',
          user_img: require("@/assets/Person3.png"),
+         hover_text: "Get exclusive content." +
+         "Interact with Dave.Get exclusive content." +
+         "Interact with Bridget.Verified Nobody.My trible is tribeless." +
+         "Captain of the Fence Riding Team.Fidding while Rome burns. Find another hero."
        },
        {
          id: 4,
          title: 'Micheal Malice',
          under_title: 'Get exclusive content Interact with Micheal',
          user_img: require("@/assets/Person4.png"),
+         hover_text: "Get exclusive content." +
+         "Interact with Dave.Get exclusive content." +
+         "Interact with Bridget.Verified Nobody.My trible is tribeless." +
+         "Captain of the Fence Riding Team.Fidding while Rome burns. Find another hero."
        },
        {
          id: 5,
          title: 'Convention of States',
          under_title: 'Get exclusive content Interact with Mark',
          user_img: require("@/assets/Person5.png"),
+         hover_text: "Get exclusive content." +
+         "Interact with Dave.Get exclusive content." +
+         "Interact with Bridget.Verified Nobody.My trible is tribeless." +
+         "Captain of the Fence Riding Team.Fidding while Rome burns. Find another hero."
        },
 
      ]
