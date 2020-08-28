@@ -266,7 +266,11 @@ export default {
   color: #FFFFFF !important;
   text-transform: lowercase !important;
 }
-.first-slider .first-button-slider button {
+.first-slider .under_title {
+  color: blue !important;
+  z-index: 300 !important;
+}
+.first-button-slider button {
   width: 100%;
   height: 64px;
   color: #E73348;
@@ -279,6 +283,17 @@ export default {
 .first-button-slider button:hover {
   background: #FFFFFF;
   color: #E73348;
+}
+.first-slider:hover > .title {
+  display: block !important;
+}
+.first-slider:hover > .under-title {
+  display: block !important;
+  z-index: 400 !important;
+}
+
+.first-slider:hover > .hover-text {
+  display: none;
 }
 .swiper-slide {
   width: 256px !important;
